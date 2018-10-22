@@ -20,7 +20,7 @@ public class UpdateStudentDemo {
 
 		try {
 				
-			int studentId=1;
+			int studentId=3;
 			
 			//now get a session and start transaction 
 			session = factory.getCurrentSession();
@@ -32,7 +32,7 @@ public class UpdateStudentDemo {
 			Student myStudent=session.get(Student.class,studentId);
 			
 			System.out.println("Updating student...");
-			myStudent.setFirstName("Samer");
+			myStudent.setFirstName("Ivan");
 			
 			//commit transaction
 			session.getTransaction().commit();
