@@ -54,7 +54,6 @@ public class UpdateStudentDemo {
 
 		} finally {
 			factory.close();
-
 		}
 
 	}

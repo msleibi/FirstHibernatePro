@@ -65,5 +65,4 @@ public class QueryStudentDemo {
 					+ student.getLastName());
 		}
 	}
-
 }
